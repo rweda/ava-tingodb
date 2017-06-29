@@ -1,6 +1,6 @@
 {
   "name": "@rweda/ava-tingodb",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "'beforeEach' hook to create a TingoDB database",
   "main": "tingodb.js",
   "scripts": {
