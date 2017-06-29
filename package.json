@@ -4,7 +4,7 @@
   "description": "'beforeEach' hook to create a TingoDB database",
   "main": "tingodb.js",
   "scripts": {
-    "test": "NODE_PATH=. ava"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,14 @@
   "peerDependencies": {
     "ava": "^0.20.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@rweda/ava-tmpdir": "^0.1.0",
+    "modconf": "0.0.1",
+    "tingodb": "^0.5.1",
+    "uuid": "^3.1.0"
+  },
   "devDependencies": {
-    "ava": "^0.20.0"
+    "ava": "^0.20.0",
+    "bluebird": "^3.5.0"
   }
 }
