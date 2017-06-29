@@ -1,0 +1,26 @@
+{
+  "name": "@rweda/ava-tingodb",
+  "version": "0.0.0",
+  "description": "'beforeEach' hook to create a TingoDB database",
+  "main": "tingodb.js",
+  "scripts": {
+    "test": "NODE_PATH=. ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rweda/ava-tingodb.git"
+  },
+  "author": "Redwood EDA (http://redwoodeda.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rweda/ava-tingodb/issues"
+  },
+  "homepage": "https://github.com/rweda/ava-tingodb#readme",
+  "peerDependencies": {
+    "ava": "^0.20.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.20.0"
+  }
+}
